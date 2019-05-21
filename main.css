@@ -319,10 +319,10 @@ footer {
   }
 }
 
+/* iPhone X */
+
 @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
+    and (device-width : 375px)   { 
       .contact-form {
         top: 303%;
       }
@@ -334,13 +334,13 @@ footer {
       .s-m {
         display: iblock;
         position: absolute;
-        bottom: -250%;
+        bottom: -245%;
         left: 50%;
         transform: translate(-50%,-50%);
         width: 300px;
       }
       .foot-note {
-        margin-top: 650px;
+        margin-top: 600px;
       }
       
       h1 {
@@ -348,3 +348,24 @@ footer {
         text-align: center;
       }
     }
+
+
+  /* iPhone 6/7/8 */
+  @media (max-height: 667px) {
+    .contact-form {
+      top: 349%;
+    }
+
+    .s-m {
+      display: iblock;
+      position: absolute;
+      bottom: -300%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 300px;
+    }
+
+    .foot-note {
+      margin-top: 620px;
+    }
+  }
