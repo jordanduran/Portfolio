@@ -8,9 +8,6 @@ $(document).ready(function() {
   $(".menu-icon").on("click", function() {
     $("nav ul").toggleClass("showing");
   });
-  $(".menu-icon").click(function() {
-    $("h1").toggle(600);
-  });
   $(window).on("scroll", function() {
     if ($(window).scrollTop()) {
       $("nav").addClass("black");
