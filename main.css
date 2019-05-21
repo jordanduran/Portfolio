@@ -147,11 +147,6 @@ h2 {
   transition: 0.8 ease-in;
 }
 
-.contact-section {
-  background: url(images/contact-bg.png);
-  background-size: cover;
-}
-
 .contact-form {
   width: 85%;
   max-width: 600px;
@@ -323,3 +318,33 @@ footer {
     margin-top: 870px;
   }
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+      .contact-form {
+        top: 303%;
+      }
+      footer a {
+        display: inline-block
+        width: 60px;
+      }
+
+      .s-m {
+        display: iblock;
+        position: absolute;
+        bottom: -250%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 300px;
+      }
+      .foot-note {
+        margin-top: 650px;
+      }
+      
+      h1 {
+        font-weight: 700;
+        text-align: center;
+      }
+    }
