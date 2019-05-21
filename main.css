@@ -136,11 +136,15 @@ h2 {
   width: 100%;
 }
 
-p.project-one-par {
-backgro
+.project-links {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
 }
 
-ul.showing {
+.project-links:hover {
+  border-bottom: 1px solid #e67e22;
+  transition: 0.8 ease-in;
 }
 
 .contact-section {
@@ -237,7 +241,7 @@ footer {
 .foot-note {
   text-align: center;
   top: 50%;
-  margin-top: 973px;
+  margin-top: 843px;
   font-weight: 700;
 }
 
@@ -312,10 +316,10 @@ footer {
   }
 
   .contact-form {
-    top: 290%;
+    top: 310%;
   }
 
   .foot-note {
-    margin-top: 1010px;
+    margin-top: 870px;
   }
 }
