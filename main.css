@@ -321,8 +321,11 @@ footer {
 
 /* iPhone X */
 
-@media only screen 
-    and (device-width : 375px)   { 
+@media only screen
+    and (device-width : 375px)
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait)   { 
       .contact-form {
         top: 303%;
       }
