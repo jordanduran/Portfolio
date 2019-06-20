@@ -146,51 +146,36 @@ h2 {
   transition: 0.8 ease-in;
 }
 
-.contact-form {
-  width: 85%;
-  max-width: 600px;
-  background: #f1f1f1;
-  position: absolute;
-  top: 320%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 30px 40px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 0 20px #000000b3;
+/* Form styles */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.contact-form h3 {
-  margin-top: 0;
-}
-
-.txtb {
-  border: 1px solid gray;
-  margin: 8px 0;
-  padding: 12px 18px;
-  border-radius: 8px;
-}
-
-.txtb label {
-  display: block;
-  text-align: left;
-  color: #333;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.txtb input {
-  width: 100%;
+input[type=submit] {
+  background-color: #fd8924;
+  color: white;
+  padding: 12px 20px;
   border: none;
-  background: none;
-  outline: none;
-  font-size: 17px;
-  margin-top: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
 }
 
-textarea {
-  font-size: 15px;
+/* background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid rgba(250, 118, 30, 0.192);
+  border-radius: 10px;
 }
 
 /* FOOTER SECTION */
@@ -235,7 +220,7 @@ footer {
 .foot-note {
   text-align: center;
   top: 50%;
-  margin-top: 843px;
+  margin-top: 120px;
   font-weight: 700;
 }
 
@@ -287,6 +272,7 @@ footer {
   }
   .menu-icon {
     display: block;
+    border: none;
   }
 
   .menu li {
@@ -303,7 +289,6 @@ footer {
   a:hover {
     border-bottom: #fd8924;
     transition: 0.3s;
-    font-size: 120%;
     border-bottom: 1px solid #fd8924;
     border-spacing: 100px;
     transition: 0.8s;
@@ -314,7 +299,7 @@ footer {
   }
 
   .foot-note {
-    margin-top: 870px;
+    margin-top: 140px;
   }
 }
 
@@ -368,6 +353,6 @@ footer {
     }
 
     .foot-note {
-      margin-top: 620px;
+      margin-top: 150px;
     }
   }

@@ -88,39 +88,35 @@
                         |
                         <a href="https://jordanduran.github.io/quizAppMaster/"
                               class="project-links" target="_blank">Live website</a>
-                              
                   </section>
                   <section class="contact-section" id="contact_sec">
-                        <div class="contact-form">
-                              <h3>Contact Me</h3>
-                              <div class="txtb">
-                                    <form method=POST
-                                          action="mailto:jordanduranm@gmail.com"
-                                          enctype="text/plain">
-                                          <label>Full Name :</label>
-                                          <input type="text" name="" value=""
-                                                placeholder="Full Name">
-                                          <div class="txtb">
-                                                <label>Email :</label>
-                                                <input type="text" name=""
-                                                      value=""
-                                                      placeholder="Email">
-                                          </div>
-                                          <div class="txtb">
-                                                <label>Phone Number :</label>
-                                                <input type="text" name=""
-                                                      value=""
-                                                      placeholder="###-###-####">
-                                          </div>
-                                          <div class="txtb">
-                                                <label>Message:</label>
-                                                <textarea></textarea>
-                                          </div>
-                                    </div>
-                                    <input type="submit" name="Submit"
-                                          class="form-btn">
-                              </div>
-                        </form>
+                              <h2>I would love to hear from you!</h2>
+
+                        <div class="container">
+                              <form method=POST
+                              action="mailto:jordanduranm@gmail.com"
+                              enctype="text/plain">
+                            
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+                            
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                            
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+                                  <option value="usa">United States</option>
+                                  <option value="canada">Canada</option>
+                                  <option value="australia">Australia</option>
+                                </select>
+                            
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+                            
+                                <input type="submit" value="Submit">
+                            
+                              </form>
+                            </div>
 
                   </section>
             </main>
