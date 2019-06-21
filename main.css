@@ -149,33 +149,38 @@ h2 {
 /* Form styles */
 
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #fd8924;
-  color: white;
+  background-color: #ffffff;
+  color: #e67e22;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
+  font-size: 10px;
 }
 
 /* background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #fc8c30b9;
   padding: 20px;
   border: 1px solid rgba(250, 118, 30, 0.192);
   border-radius: 10px;
+  width: 500px;
+  margin-left: 25%;
+  margin-right:25%;
+  width: 50%;
 }
 
 /* FOOTER SECTION */
@@ -186,9 +191,9 @@ footer {
 
 .s-m {
   position: absolute;
-  bottom: -285%;
   left: 50%;
   transform: translate(-50%,-50%);
+  padding-top: 100px;
 }
 
 .s-m a {
@@ -217,26 +222,11 @@ footer {
   transform: scale(1.6) rotate(25deg);
 }
 
-.foot-note {
+footer p {
   text-align: center;
-  top: 50%;
-  margin-top: 120px;
   font-weight: 700;
+  padding-top: 90px; 
 }
-
-/* FORM SECTION */
-
-.form-btn {
-  display: block;
-  background: #fd8924;
-  padding: 10px 0;
-  color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-  margin-top: 8px;
-  width: 100%;
-}
-
 
 @media (max-width: 786px) {
   .logo {
@@ -293,66 +283,9 @@ footer {
     border-spacing: 100px;
     transition: 0.8s;
   }
-
-  .contact-form {
-    top: 310%;
-  }
-
-  .foot-note {
-    margin-top: 140px;
+  .container {
+    margin-left: 100px;
   }
 }
 
 /* iPhone X */
-
-@media only screen
-    and (device-width : 375px)
-    and (max-device-width: 812px) 
-    and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait)   { 
-      .contact-form {
-        top: 303%;
-      }
-      footer a {
-        display: inline-block
-        width: 60px;
-      }
-
-      .s-m {
-        display: iblock;
-        position: absolute;
-        bottom: -245%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 300px;
-      }
-      .foot-note {
-        margin-top: 600px;
-      }
-      
-      h1 {
-        font-weight: 700;
-        text-align: center;
-      }
-    }
-
-
-  /* iPhone 6/7/8 */
-  @media (max-height: 667px) {
-    .contact-form {
-      top: 349%;
-    }
-
-    .s-m {
-      display: iblock;
-      position: absolute;
-      bottom: -300%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      width: 300px;
-    }
-
-    .foot-note {
-      margin-top: 150px;
-    }
-  }
