@@ -170,7 +170,10 @@ input[type=submit] {
   font-size: 10px;
 }
 
-/* background color and some padding around the form */
+textarea {
+  height: 150px;
+}
+
 .container {
   border-radius: 5px;
   background-color: #fc8c30b9;
