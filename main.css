@@ -98,6 +98,10 @@ nav ul li a {
   font-size: 16px;
 }
 
+#icon {
+  cursor: pointer;
+}
+
 .menu-icon {
   line-height: 60px;
   width: 100%;
@@ -105,7 +109,6 @@ nav ul li a {
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
-  cursor: pointer;
   color: #fff;
   display: none;
 }
@@ -180,9 +183,8 @@ textarea {
   padding: 20px;
   border: 1px solid rgba(250, 118, 30, 0.192);
   border-radius: 10px;
-  width: 500px;
-  margin-left: 25%;
-  margin-right:25%;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
@@ -264,7 +266,7 @@ footer p {
     color: rgb(248, 248, 248);
   }
   .menu-icon {
-    display: block;
+    display: inline;
     border: none;
   }
 
@@ -286,8 +288,10 @@ footer p {
     border-spacing: 100px;
     transition: 0.8s;
   }
-  .container {
-    margin-left: 100px;
+  .container form {
+    /* margin-left: 100px; */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
