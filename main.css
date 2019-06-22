@@ -71,7 +71,7 @@ nav {
 nav a:hover, nav a:focus {
   border-bottom: 1px solid #fd8924;
   border-spacing: 100px;
-  transition: 0.6s;
+  transition: 0.3s;
 }
 
 nav ul {
@@ -243,6 +243,26 @@ footer p {
   padding-top: 90px; 
 }
 
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  background: #000000bd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  border-radius: 2px;
+}
+
+#topBtn:hover, #topBtn:focus {
+  background-color: rgb(0, 0, 0);
+  transition-duration: 0.6s;
+}
+
 @media (max-width: 786px) {
   .logo {
     position: fixed;
@@ -301,6 +321,12 @@ footer p {
   .container form {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #topBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
   }
 }
 
