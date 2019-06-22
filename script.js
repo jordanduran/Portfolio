@@ -5,7 +5,7 @@ function onClickMenu() {
 // Menu-toggle button
 
 $(document).ready(function() {
-  $("#icon").on("click", function() {
+  $(".menu-icon").on("click", function() {
     $("nav ul").toggleClass("showing");
   });
   $(".nav_links").on("click", function() {
