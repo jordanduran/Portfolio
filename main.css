@@ -21,8 +21,6 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
     url(images/hero1.jpg);
   background-size: cover;
-  overflow: hidden;
-  clip-path: polygon(0 0,100% 0,100% 100%,0 94%);
 }
 
 mark.orange {
@@ -327,6 +325,7 @@ footer p {
     width: 40px;
     height: 40px;
     font-size: 20px;
+    bottom: 55px;
   }
 }
 
