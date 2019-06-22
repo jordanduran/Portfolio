@@ -12,6 +12,7 @@ body {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: lighter;
+  background-color: rgb(248, 248, 248);
 }
 
 header {
@@ -20,6 +21,8 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
     url(images/hero1.jpg);
   background-size: cover;
+  overflow: hidden;
+  clip-path: polygon(0 0,100% 0,100% 100%,0 94%);
 }
 
 mark.orange {
