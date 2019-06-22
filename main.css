@@ -239,12 +239,12 @@ footer p {
 
 #topBtn {
   position: fixed;
-  bottom: 40px;
+  bottom: 50px;
   right: 40px;
   font-size: 22px;
   width: 45px;
   height: 45px;
-  background: #000000bd;
+  background: #2c3e50;
   color: white;
   border: none;
   cursor: pointer;
@@ -253,8 +253,9 @@ footer p {
 }
 
 #topBtn:hover, #topBtn:focus {
-  background-color: rgb(0, 0, 0);
-  transition-duration: 0.6s;
+  /* background-color: rgb(0, 0, 0); */
+  color: #ff7e0e;
+  transition-duration: 0.3s;
 }
 
 @media (max-width: 786px) {
