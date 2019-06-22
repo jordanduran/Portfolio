@@ -140,13 +140,19 @@ h2 {
 
 .project-links {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 700;
+  background-color: #ff8923ab;
+  border: 1px solid #fd8924;
+  border-radius: 6px;
+  padding: 4px 4px;
+  font-size: 20px;
 }
 
 .project-links:hover {
-  border-bottom: 1px solid #e67e22;
-  transition: 0.8 ease-in;
+  background-color: #ff8a23;
+  /* transition: 0.1 ease-in; */
+
 }
 
 /* Form styles */
