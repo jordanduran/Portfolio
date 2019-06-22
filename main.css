@@ -98,10 +98,6 @@ nav ul li a {
   font-size: 16px;
 }
 
-#icon {
-  cursor: pointer;
-}
-
 .menu-icon {
   line-height: 60px;
   width: 100%;
@@ -111,6 +107,10 @@ nav ul li a {
   padding: 15px 24px;
   color: #fff;
   display: none;
+}
+
+#icon {
+  cursor: pointer;
 }
 
 .work-sec {
@@ -289,7 +289,6 @@ footer p {
     transition: 0.8s;
   }
   .container form {
-    /* margin-left: 100px; */
     margin-left: auto;
     margin-right: auto;
   }
