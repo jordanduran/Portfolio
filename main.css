@@ -341,6 +341,7 @@ footer p {
     height: 40px;
     font-size: 20px;
     bottom: 55px;
+    visibility: hidden;
   }
 
   @media (max-width: 400px) {
@@ -355,11 +356,6 @@ footer p {
       width: 30px;
       height: 30px;
       font-size: 20px;
-    }
-
-    #topBtn {
-      font-size: 20px;
-      right: 10px;
     }
   }
 }
