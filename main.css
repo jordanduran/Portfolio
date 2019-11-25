@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   background-color: rgb(248, 248, 248);
 }
@@ -66,7 +66,8 @@ nav {
   text-align: right;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover,
+nav a:focus {
   border-bottom: 1px solid #fd8924;
   border-spacing: 100px;
   transition: 0.3s;
@@ -134,7 +135,7 @@ h2 {
   box-shadow: 5px 5px 3px grey;
 }
 
-.project-photo{
+.project-photo {
   position: relative;
   width: 100%;
 }
@@ -162,9 +163,11 @@ h2 {
 
 /* Form styles */
 
-input[type=text], select, textarea {
+input[type='text'],
+select,
+textarea {
   width: 100%;
-  padding: 12px; 
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -173,7 +176,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type='submit'] {
   background-color: #ffffff;
   color: #e67e22;
   padding: 12px 20px;
@@ -209,7 +212,7 @@ footer {
 .s-m {
   position: absolute;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   margin-top: 50px;
 }
 
@@ -227,7 +230,8 @@ footer {
   font-size: 24px;
 }
 
-.s-m a:hover, a:focus {
+.s-m a:hover,
+a:focus {
   background: #e67e22;
 }
 
@@ -235,14 +239,15 @@ footer {
   transition: 0.4s all;
 }
 
-.s-m a:hover > i, .s-m a:focus > i {
+.s-m a:hover > i,
+.s-m a:focus > i {
   transform: scale(1.6) rotate(25deg);
 }
 
 footer p {
   text-align: center;
   font-weight: 700;
-  padding-top: 90px; 
+  padding-top: 90px;
 }
 
 #topBtn {
@@ -260,7 +265,8 @@ footer p {
   border-radius: 2px;
 }
 
-#topBtn:hover, #topBtn:focus {
+#topBtn:hover,
+#topBtn:focus {
   /* background-color: rgb(0, 0, 0); */
   color: #ff8b26;
   transition-duration: 0.3s;
@@ -341,7 +347,7 @@ footer p {
     .s-m {
       font-size: 10px;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
       margin-top: 50px;
     }
 
@@ -350,7 +356,10 @@ footer p {
       height: 30px;
       font-size: 20px;
     }
+
+    #topBtn {
+      font-size: 20px;
+      right: 10px;
+    }
   }
 }
-
-/* iPhone X */
