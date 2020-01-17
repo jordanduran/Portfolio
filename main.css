@@ -92,7 +92,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 0px 40px;
 }
 
 nav ul li a {
@@ -138,21 +138,7 @@ h2 {
 .project-photo {
   position: relative;
   width: 100%;
-}
-
-.project-one {
   padding-top: 20px;
-  max-width: 1100px;
-}
-
-.project-two {
-  padding-top: 20px;
-  width: 90%;
-}
-
-.project-three {
-  padding-top: 20px;
-  width: 90%;
 }
 
 .project-links {
@@ -316,6 +302,7 @@ footer p {
   .menu-icon {
     display: inline;
     border: none;
+    padding: 0px 24px;
   }
 
   .menu li {
